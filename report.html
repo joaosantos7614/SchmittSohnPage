@@ -57,48 +57,82 @@
             <hr>
             <div>
                 <div class="row">
-                    <p class="h6 col-2">Nome:</p>
-                    <p class="h6 col-2">João Santos</p>
+                    <p class="h6 col-4 col-md-2">Nome:</p>
+                    <p class="h6 col-8 col-md-10">João Santos</p>
                 </div>
                 <div class="row">
-                    <p class="h6 col-2">Número de Telefoone:</p>
-                    <p class="h6 col-2">966666666</p>
+                    <p class="h6 col-4 col-md-2">Número de Telefone:</p>
+                    <p class="h6 col-8 col-md-10">966666666</p>
                 </div>
                 <div class="row">
-                    <p class="h6 col-2">Matrícula do Veículo:</p>
-                    <p class="h6 col-2">XX-23-XX</p>
+                    <p class="h6 col-4 col-md-2">Matrícula do Veículo:</p>
+                    <p class="h6 col-8 col-md-10">XX-23-XX</p>
                 </div>
 
             </div>
             <hr>
+            <div>
+                <p class="h6">Escolher para que dia pretende ver ou criar ficheiro PDF</p>
+                <div class="row mb-1">
+                    <div class="col-12">
+                        <input id="today" type="date" value="2021-10-26" name="dia">
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-4 col-md-2">
+                        <!-- READ -->
+                        <input class="btn btn-success" type="submit" name="read" value="Abrir">
+                    </div>
+                    <div class="col-4 col-md-2">
+                        <!-- PDF -->
+                        <input class="btn btn-success" type="submit" name="pdf" value="PDF">
+                    </div>
+                    
+                    <div class="col-4 col-md-2">
+                        <!-- Refresh-->
+                        <input class="btn btn-success" type="submit" id="ref" name="refresh" value="REFRESH">
+                    </div>
+                    </div>
+
+            </div>
+            <hr>
             <div class="row h-100 row-cols-1 gy-1">
-                
+                <div class="col-12">
+                    <!--COLUMN-->
+                    <div class="bg-secondary h-100 text-light p-2">
+                        <h1 class="text-center">Top</h1>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <!-- 1 -->
                 <div class="col-12 col-md-6">
                     <!--COLUMN-->
-                    <div class="bg-secondary h-100 text-light">
+                    <div class="bg-secondary h-100 text-light p-2">
                         <h1 class="text-center">Col 1</h1>
                         <p>Lorem ipsum</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <!--COLUMN-->
-                    <div class="bg-secondary h-100 text-light">
+                    <div class="bg-secondary h-100 text-light p-2">
+                        <h1 class="text-center">Col 1a</h1>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-12 col-md-6">
+                    <!--COLUMN-->
+                    <div class="bg-dark h-100 text-light p-2">
                         <h1 class="text-center">Col 2</h1>
                         <p>Lorem ipsum</p>
                     </div>
                 </div>
-                
                 <div class="col-12 col-md-6">
                     <!--COLUMN-->
                     <div class="bg-dark h-100 text-light p-2">
-                        <h1 class="text-center">Col 3</h1>
-                        <p>Lorem ipsum</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <!--COLUMN-->
-                    <div class="bg-dark h-100 text-light p-2">
-                        <h1 class="text-center">Col 4</h1>
+                        <h1 class="text-center">Col 2a</h1>
                         <p>Lorem ipsum</p>
                     </div>
                 </div>
