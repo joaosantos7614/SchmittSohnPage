@@ -35,10 +35,10 @@
                         <a class="nav-link" aria-current="page" href="./welcome.html">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./report.html">Relatórios</a>
+                        <a class="nav-link active" href="./report.html">Relatórios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./edit_user.html">Editar Utilizador</a>
+                        <a class="nav-link" href="./edit_user.html">Editar Utilizador</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">Acerca</a>
@@ -51,55 +51,65 @@
     <main class="flex-shrink-0">
         <div class="container">
             <div class="text-center">
-                <h1 class="mt-5">Editar Utilizador</h1>
-                <p class="lead">Nesta ecrã pode editar os seus dados</p>
+                <h1 class="mt-5">Relatórios</h1>
+                <p class="lead">Nesta ecrã pode gerir e criar relatórios</p>
             </div>
             <hr>
             <div>
-                <p class="h4">Alterar Dados de Utilizador</p>
-                <form method="post">
-                    
-                    <div class="form-group col-md-4 col-12">
-                        <label>Primeiro e último nome</label>
-                        <input class="form-control" type="text" name="nome" value="Joao Santos">
-                    </div>
-                    <div class="form-group mt-2 col-md-4 col-12">
-                        <label>Número</label>
-                        <input class="form-control" type="text" name="numero" value="966666666">
-                    </div>
-                    <div class="form-group mt-2 col-md-4 col-12">
-                        <label>Matrícula da viatura</label>
-                        <input class="form-control" type="text" name="matricula" value="XX-23-XX">
-                    </div>
-                    <div class="form-group mt-3 ">
-                        <input type="submit" name="saveacc" value="Guardar Dados Conta" class="btn btn-success col-md-3 col-12">
-                    </div>
-                </form>
-            </div>
-            <hr>
-            <div>
-                <p class="h4">Alterar Palavra-passe</p>
-                <form action="/editacc.php" method="post">
-                    <div class="form-group col-md-4 col-12">
-                        <label>Nova Palavra-passe</label>
-                        <input type="password" name="new_password" class="form-control" value="">
-                        <!-- <span class="help-block"></span> -->
-                    </div>
-                    <div class="form-group  col-md-4 col-12 mt-2">
-                        <label>Confirmar Nova Palavra-passe</label>
-                        <input type="password" name="confirm_password" class="form-control">
-                        <!-- <span class="help-block"></span> -->
-                    </div>
-                    <div class="form-group mt-3">
-                        <input type="submit" name="savepw" class="btn btn-success col-md-3 col-12" value="Guardar Password"><br><br>
+                <div class="row">
+                    <p class="h6 col-2">Nome:</p>
+                    <p class="h6 col-2">João Santos</p>
+                </div>
+                <div class="row">
+                    <p class="h6 col-2">Número de Telefoone:</p>
+                    <p class="h6 col-2">966666666</p>
+                </div>
+                <div class="row">
+                    <p class="h6 col-2">Matrícula do Veículo:</p>
+                    <p class="h6 col-2">XX-23-XX</p>
+                </div>
 
+            </div>
+            <hr>
+            <div class="row h-100 row-cols-1 gy-1">
+                
+                <div class="col-12 col-md-6">
+                    <!--COLUMN-->
+                    <div class="bg-secondary h-100 text-light">
+                        <h1 class="text-center">Col 1</h1>
+                        <p>Lorem ipsum</p>
                     </div>
-                </form>
-                <hr>
-                <div>
-                    <a type="button" class="btn btn-success col-md-3 col-12" href="./welcome.html">Voltar ao ecrã anterior</a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--COLUMN-->
+                    <div class="bg-secondary h-100 text-light">
+                        <h1 class="text-center">Col 2</h1>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <!--COLUMN-->
+                    <div class="bg-dark h-100 text-light p-2">
+                        <h1 class="text-center">Col 3</h1>
+                        <p>Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <!--COLUMN-->
+                    <div class="bg-dark h-100 text-light p-2">
+                        <h1 class="text-center">Col 4</h1>
+                        <p>Lorem ipsum</p>
+                    </div>
                 </div>
             </div>
+
+            <hr>
+            <div>
+                <a type="button" class="btn btn-success col-md-3 col-12" href="./welcome.html">Voltar ao ecrã
+                    anterior</a>
+            </div>
+
         </div>
 
     </main>
