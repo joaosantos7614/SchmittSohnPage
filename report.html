@@ -77,7 +77,7 @@
                     <div class="col-12">
                         <input id="today" type="date" value="2021-10-26" name="dia">
                     </div>
-                    
+
                 </div>
                 <div class="row">
                     <div class="col-4 col-md-2">
@@ -88,12 +88,12 @@
                         <!-- PDF -->
                         <input class="btn btn-success" type="submit" name="pdf" value="PDF">
                     </div>
-                    
+
                     <div class="col-4 col-md-2">
                         <!-- Refresh-->
                         <input class="btn btn-success" type="submit" id="ref" name="refresh" value="REFRESH">
                     </div>
-                    </div>
+                </div>
 
             </div>
             <hr>
@@ -102,129 +102,410 @@
                     <!--COLUMN-->
                     <div class="h-70">
                         <p class="h6">Relatório Diário SAV - campos de preenchimento e leitura</p>
-                        <p> Dia:  <input id="dayx" type="date" value="2021-10-26" name="diax"></p>
+                        <p> Dia: <input id="dayx" type="date" value="2021-10-26" name="diax"></p>
                     </div>
                 </div>
-                <!-- 3 -->
-                <div class="col-6">
-                    <!--COLUMN-->
-                    <div class="bg-light h-100 text-dark">
-                        
-                        <p>coluna 3a</p>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <!--COLUMN-->
-                    <div class="bg-light h-100 text-dark">
-                        
-                        <p>coluna 3b</p>
-                    </div>
-                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
                 <!-- 4 -->
-                <div class="col-6">
+                <div class="col-3">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        <p>coluna 4a</p>
+                        <p class="h6">Descrição</p>
                     </div>
                 </div>
-                
-                <div class="col-6">
+                <div class="col-1">
                     <!--COLUMN-->
-                    <div class="h-100 text-dark d-flex justify-content-around">
-                        <p>M</p>
-                        <p>A</p>
-                        <p>R</p>
-                        <p>S</p>
-                        <p>ApT</p> <p>AS</p> <p>AIP</p> <p>Re</p> <p>Ou</p> <p>xx</p><p>xx</p>
+                    <div class="h-100 text-dark">
+                        <p class="h6">Km</p>
                     </div>
                 </div>
-                <!-- 1 -->
-                <div class="col-6">
+                <div class="col-1">
                     <!--COLUMN-->
-                    <div class="bg-light h-100 text-dark">
-                        
-                        1:           <input type="text" name="f1" value=" ">
-<!--Kms 1:-->       <input type="number" name="kmmeio1" style="width: 60px" value="">
-<!--Hora Ini1-->      <input type="time" name="tinicio1"  style="height: 30px;" value="22:59">
-<!--Hora Fim1-->         <input type="time" name="tfim1"  style="height: 30px;" value="22:59">
+                    <div class="h-100 text-dark">
+                        <p class="h6">Início</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-1">
                     <!--COLUMN-->
-                    <div class="bg-light h-100 text-dark d-flex justify-content-around">
-                        
-                        <!--Checkbox11-->
-                        <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" >
-<!--Checkbox12--> <input type="checkbox" id="cb12" name="cb12" oninput="checkboxes2()" >
-<!--Checkbox13--> <input type="checkbox" id="cb13" name="cb13" oninput="checkboxes3()" >
-<!--Checkbox14--> <input type="checkbox" id="cb14" name="cb14" oninput="checkboxes4()" >
-<!--Checkbox15--> <input type="checkbox" id="cb15" name="cb15" oninput="checkboxes5()" >
-<!--Checkbox16--> <input type="checkbox" id="cb16" name="cb16" oninput="checkboxes6()" >
-<!--Checkbox17--> <input type="checkbox" id="cb17" name="cb17" oninput="checkboxes7()" >
-<!--Checkbox18--> <input type="checkbox" id="cb18" name="cb18" oninput="checkboxes8()" >
-<!--Checkbox19--> <input type="checkbox" id="cb19" name="cb19" oninput="checkboxes9()" >
-<!--Checkbox20--> <input type="checkbox" id="cb20" name="cb20" oninput="checkboxes10()" >
-<!--Checkbox21--> <input type="checkbox" id="cb21" name="cb21" oninput="checkboxes11()" >
+                    <div class="h-100 text-dark">
+                        <p class="h6">Fim</p>
                     </div>
                 </div>
 
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <p class="h6">Motivo</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 1 -->
+                <div class="col-3">
+                    <div class="bg-light h-100 text-dark d-flex">
+                        1: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-light h-100 text-dark">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
                 <!-- 2 -->
-                <div class="col-6">
+                <div class="col-3">
+                    <div class="h-100 text-dark d-flex">
+                        2: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="h-100 text-dark d-flex">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        2:           <input type="text" name="f1" value=" ">
-<!--Kms 1:-->       <input type="number" name="kmmeio1" style="width: 60px" value="">
-<!--Hora Ini1-->      <input type="time" name="tinicio1"  style="height: 30px;" value="22:59">
-<!--Hora Fim1-->         <input type="time" name="tfim1"  style="height: 30px;" value="22:59">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
                     </div>
                 </div>
-                
-                <div class="col-6">
+                <div class="col-1">
                     <!--COLUMN-->
-                    <div class="h-100 text-dark d-flex justify-content-around">
-                        
-                        <!--Checkbox11-->
-                        <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" >
-<!--Checkbox12--> <input type="checkbox" id="cb12" name="cb12" oninput="checkboxes2()" >
-<!--Checkbox13--> <input type="checkbox" id="cb13" name="cb13" oninput="checkboxes3()" >
-<!--Checkbox14--> <input type="checkbox" id="cb14" name="cb14" oninput="checkboxes4()" >
-<!--Checkbox15--> <input type="checkbox" id="cb15" name="cb15" oninput="checkboxes5()" >
-<!--Checkbox16--> <input type="checkbox" id="cb16" name="cb16" oninput="checkboxes6()" >
-<!--Checkbox17--> <input type="checkbox" id="cb17" name="cb17" oninput="checkboxes7()" >
-<!--Checkbox18--> <input type="checkbox" id="cb18" name="cb18" oninput="checkboxes8()" >
-<!--Checkbox19--> <input type="checkbox" id="cb19" name="cb19" oninput="checkboxes9()" >
-<!--Checkbox20--> <input type="checkbox" id="cb20" name="cb20" oninput="checkboxes10()" >
-<!--Checkbox21--> <input type="checkbox" id="cb21" name="cb21" oninput="checkboxes11()" >
+                    <div class="h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
                     </div>
                 </div>
-                <!-- 3 -->
-                <div class="col-6">
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 1 -->
+                <div class="col-3">
+                    <div class="bg-light h-100 text-dark d-flex">
+                        3: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-light h-100 text-dark">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
-                        <p>coluna 3a</p>
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-1">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
-                        <p>coluna 3b</p>
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
                     </div>
                 </div>
-                <!-- 4 -->
-                <div class="col-6">
+                <div class="col-2">
                     <!--COLUMN-->
-                    <div class="h-100 text-dark">
-                        <p>coluna 4a</p>
+                    <div class="bg-light h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
                     </div>
                 </div>
-                
-                <div class="col-6">
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 2 -->
+                <div class="col-3">
+                    <div class="h-100 text-dark d-flex">
+                        4: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="h-100 text-dark d-flex">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        
-                        <p>coluna 4b</p>
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 1 -->
+                <div class="col-3">
+                    <div class="bg-light h-100 text-dark d-flex">
+                        5: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-light h-100 text-dark">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 2 -->
+                <div class="col-3">
+                    <div class="h-100 text-dark d-flex">
+                        6: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="h-100 text-dark d-flex">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 1 -->
+                <div class="col-3">
+                    <div class="bg-light h-100 text-dark d-flex">
+                        7: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="bg-light h-100 text-dark">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="bg-light h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-70 row-cols-1 gy-1 gx-0">
+                <!-- 2 -->
+                <div class="col-3">
+                    <div class="h-100 text-dark d-flex">
+                        8: <input type="text" name="f1" value=" ">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="h-100 text-dark d-flex">
+                        <!--Kms 1:-->
+                        <input type="number" name="kmmeio1" value="0">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!--Hora Ini1-->
+                        <input type="time" name="tinicio1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!--Hora Fim1-->
+                        <input type="time" name="tfim1" value="22:59">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <!--COLUMN-->
+                    <div class="h-100 text-dark">
+                        <!-- <input type="checkbox" id="cb11" name="cb11" oninput="checkboxes1()" > -->
+                        <!-- <label for="cb11">Motivo:</label> -->
+                        <select name="cb11" id="cb11">
+                            <option value="m">Manutenção</option>
+                            <option value="a">Avaria</option>
+                            <option value="r">Reparação</option>
+                            <option value="s">Supervisão</option>
+                            <option value="apt">Apoio Técnico</option>
+                            <option value="acs">Acompanhar SAT</option>
+                            <option value="aip">Acompanhar IP</option>
+                            <option value="re">Reúnião</option>
+                            <option value="ou">Outro</option>
+                        </select>
                     </div>
                 </div>
             </div>
@@ -234,21 +515,21 @@
                     <!--COLUMN-->
                     <div class="h-70">
                         <p class="h6">Observações</p>
-                        
+
                     </div>
                 </div>
-                
+
                 <div class="col-2">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
                         <p>Número</p>
                     </div>
                 </div>
-                
+
                 <div class="col-10">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        
+
                         <p>Descrição</p>
                     </div>
                 </div>
@@ -256,14 +537,14 @@
                 <div class="col-2">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
+
                         <p>coluna 1a</p>
                     </div>
                 </div>
                 <div class="col-10">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
+
                         <p>coluna 1a</p>
                     </div>
                 </div>
@@ -275,11 +556,11 @@
                         <p>coluna 2a</p>
                     </div>
                 </div>
-                
+
                 <div class="col-10">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        
+
                         <p>coluna 2b</p>
                     </div>
                 </div>
@@ -287,14 +568,14 @@
                 <div class="col-2">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
+
                         <p>coluna 1a</p>
                     </div>
                 </div>
                 <div class="col-10">
                     <!--COLUMN-->
                     <div class="bg-light h-100 text-dark">
-                        
+
                         <p>coluna 1b</p>
                     </div>
                 </div>
@@ -306,15 +587,15 @@
                         <p>coluna 2a</p>
                     </div>
                 </div>
-                
+
                 <div class="col-10">
                     <!--COLUMN-->
                     <div class="h-100 text-dark">
-                        
+
                         <p>coluna 2b</p>
                     </div>
                 </div>
-                
+
             </div>
 
             <hr>
